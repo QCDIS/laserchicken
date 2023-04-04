@@ -1,4 +1,4 @@
-name: venv
+name: laserchicken-env
 
 channels:
   - conda-forge
