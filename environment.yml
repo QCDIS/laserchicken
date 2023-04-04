@@ -1,12 +1,23 @@
-name: venv
+name: laserchicken-env
 
 channels:
   - conda-forge
-  - defaults
-
 dependencies:
   - python>=3.8
+  - lazrs-python
+  - laspy
   - pip
+  - scipy
+  - mock
+  - plyfile
+  - python-dateutil
+  - shapely
+  - pyshp
+  - laspy
+  - pandas
+  - click
+  - colorama
+  - psutil
+  - numpy
   - pip:
-      - -r requirements.txt
       - .
