@@ -3,8 +3,6 @@ on:
   schedule:
   - cron:  "0 0 * * Sun"
 
-
-
 jobs:
   sync:
     runs-on: ubuntu-latest

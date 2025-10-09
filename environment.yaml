@@ -3,7 +3,7 @@ name: laserchicken-env
 channels:
   - conda-forge
 dependencies:
-  - python>=3.8
+  - python>=3.9
   - lazrs-python
   - laspy
   - pip
