@@ -6,6 +6,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## Fixed
+
+- Updated Python version requirement on README 
+
+## 0.8.1 - 2026-03-03
+
+## Changed
+
+- updated CITATION.cff to version 1.2
+
+## Fixed
+
+- fixed package discovery - 0.8.0 build on PyPI is broken
+- fixed test path in project metadata
+- release instructions have been updated to new tool versions
+
+## 0.8.0 - 2026-03-03
+
+## Added
+
+- Optional dependencies added for development and documentation
+
+## Changed
+
+- project version moved to `__version__.py`
+- project metadata described with pyproject.toml
+- update test GitHub action to stable Python version (3.11, 3.12, 3.13)
+- updated release GitHub action with new Python version & packages
+
+
+## Fixed
+
+- fixed deprecation warnings
+- documentation (deployment) settings have been updated
+
+
 ## 0.7.0 - 2025-03-24
 
 ## Added
